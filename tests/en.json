@@ -1,0 +1,4 @@
+{
+  "hello": "Hello, :name!",
+  "comments": [":count comment", ":count comments"]
+}

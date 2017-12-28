@@ -1,0 +1,44 @@
+{
+    "name": "slexx/lang",
+    "type": "library",
+    "description": "Internalization library",
+    "keywords": [
+        "i18n",
+        "translation",
+        "localization",
+        "internationalization",
+        "plural",
+        "pluralization"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksei Shchepkin",
+            "email": "slexx1234@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "slexx1234@gmail.com"
+    },
+    "require": {
+        "slexx/config": "^1.0",
+        "slexx/request": "^1.1",
+        "slexx/pattern": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slexx\\Lang\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/tests/",
+            "/docs"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
